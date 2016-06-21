@@ -204,8 +204,13 @@ class mrp_servicemc(osv.osv):
         'calidad_liberada': fields.boolean('Liberada'),
         'fecha_alta': fields.date('Fecha de Alta', required = True),
         'modelo_id': fields.many2one('fleet.vehicle','Modelo',required = True),
-        'tareasmc': fields.many2one('project.task','Agregar Tarea Asociada'),
-
+        'tareasmc': fields.many2one('project.task','Agregar Tarea Asociada',required = True),
+        'realized': fields.boolean('Realizado',required=False),
+        'digitalized': fields.boolean('Digitalizado',required=False),
+        'recepcion': fields.many2one('product.product', string='Recepción', required=False, readonly=True),
+        'fec_gral_orden_servicio': fields.date('Fecha',required=True),
+        'staff': fields.many2one('hr.employee','Staff'),  
+        'attach': fields.binary('Adjuntar'),
     }
 
     _defaults = {
@@ -796,4 +801,3 @@ class mrp_servicemc_fee(osv.osv, ProductChangeMixin):
 
 mrp_servicemc_fee()
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
-

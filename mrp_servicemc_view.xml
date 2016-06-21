@@ -61,7 +61,149 @@
                         </group>
                     </group>
                 <notebook>
-                   <!--empieza el notebook propio --> 
+                    <page string="Edo.Gral.Orden Servicio">
+                        <form string="string Prueba" version="7.0">
+                            <group col="4" colspan="4">
+                                
+                                <group colspan="4" col="4">
+                                	<group col="10">
+                                        <group colspan="4">
+                                           <label string="Recepción"/>
+                                           <label string="Fecha"/>
+                                        </group>
+                                        <group colspan="6">
+                                           <label string="Staff"/>    
+                                           <label string="Adjuntar"/>    
+                                        </group> 
+                                    </group>
+                                 </group>
+
+                                 <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC1" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC2" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC3" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC4" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC5" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC6" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC7" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC8" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC9" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC10" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC11" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC12" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC13" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC14" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+                                  <group colspan="4" col="4">
+                                    <group col="8">               
+                                        <label string="Recepción MC15" colspan="2" />
+                                        <field name="fec_gral_orden_servicio" nolabel="1" colspan="1"/>
+                                        <field name="staff" nolabel="1" colspan="2"/>
+                                        <field name="attach" nolabel="1" colspan="2"/>
+                                    </group>          
+                                  </group>
+
+                            </group> 
+                        </form>           
+                    </page>     
+    
+                    
                         <page string="Jefe de Area Cliente">
                             <form string="Jefe de Area Cliente" version="7.0">
                             <h2>Contacto Cliente</h2>
@@ -210,7 +352,7 @@
                                     <group>
                                         <field name="calidad_fecha_final"/>
                                         <field name="calidad_pri_inpeccion"/>
-                                        
+                                       
                                         <field name="calidad_fecha_liberacion"/>
                                         <field name="calidad_liberada"/>
 
@@ -262,9 +404,9 @@
                         </group>
                     </page>
                     <page string="Notes">
-			<h3>Notas Reporte</h3>
+                        <h3>Notas Reporte</h3>
                         <field name="internal_notes" placeholder="Add internal notes..."/>
-			<h3>Notas Comerciales</h3>
+                        <h3>Notas Comerciales</h3>
                         <field name="quotation_notes" placeholder="Add quotation notes..."/>
                     </page>
                 </notebook>
@@ -326,4 +468,3 @@ The servicemc order uses the warranty date on the Serial Number in order to know
 
     </data>
 </openerp>
-
